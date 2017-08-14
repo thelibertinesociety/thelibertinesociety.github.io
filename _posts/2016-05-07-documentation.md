@@ -6,6 +6,9 @@ title: Documentation
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
+# MY BIG CHANGE:
+Here's my change!
+
 # Features:
 Hagura is a theme made for blogs with long text paragraphs. Made to be easy on eyes as well. 
 
