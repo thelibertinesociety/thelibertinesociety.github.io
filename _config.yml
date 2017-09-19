@@ -1,9 +1,9 @@
 ### your site title here
 
 title: The Libertine Society
-url                      : "https://thelibertinesociety.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "thelibertinesociety/thelibertinesociety.github.io"
+url: "https://thelibertinesociety.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: # the subpath of your site, e.g. "/blog"
+repository: "thelibertinesociety/thelibertinesociety.github.io"
 email: libertinesocietypdx@gmail.com
 
 
@@ -18,7 +18,7 @@ markdown: kramdown
 # analytics:
 
 # Comments
-# disqus-shortname:
+disqus_shortname: thelibertinesociety
 
 
 #optimization

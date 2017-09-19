@@ -6,11 +6,15 @@ layout: default
 {{content}}
 
 <!-- Comments only for posts -->
-{% if page.path contains '_posts' %}
-    {% if site.disqus-shortname %}
+maybe comments?
+{% if page.allow_comments %}
+
+    we'll allow them
+    {{ site.disqus_shortname }}
+
+    {% if site.disqus_shortname %}
+        COMMENTS
         {% include disqus.html %}
     {% endif %}
 {% endif %}
-
-{{ page.path }}
 
