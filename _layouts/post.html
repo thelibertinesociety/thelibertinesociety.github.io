@@ -6,14 +6,8 @@ layout: default
 {{content}}
 
 <!-- Comments only for posts -->
-maybe comments?
 {% if page.allow_comments %}
-
-    we'll allow them
-    {{ site.disqus_shortname }}
-
     {% if site.disqus_shortname %}
-        COMMENTS
         {% include disqus.html %}
     {% endif %}
 {% endif %}
