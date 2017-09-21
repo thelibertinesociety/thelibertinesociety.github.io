@@ -4,6 +4,7 @@ layout: post
 permalink: /about/
 published: true
 allow_others_to_edit: true
+allow_comments: true
 ---
 
 Here's our "about" page. What belongs here?
