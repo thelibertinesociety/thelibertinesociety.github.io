@@ -19,11 +19,18 @@
 
   {{ content }}
 
+
+  {% if page.allow_comments %}
+    {% if site.disqus_shortname %}
+      {% include disqus.html %}
+    {% endif %}
+  {% endif %}
+
 <footer>
     <hr>
     {% if page.allow_others_to_edit %}
     Think you can say it better? 
-    <a 
+    <a
         href="https://github.com/thelibertinesociety/thelibertinesociety.github.io/edit/master/{{ page.path }}"
         target="blank"
         >Edit this page</a>

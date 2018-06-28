@@ -5,10 +5,3 @@ layout: default
 <div class="meta"><span>{{page.date | date: '%B %d, %Y'}}</span></div>
 {{content}}
 
-<!-- Comments only for posts -->
-{% if page.allow_comments %}
-    {% if site.disqus_shortname %}
-        {% include disqus.html %}
-    {% endif %}
-{% endif %}
-

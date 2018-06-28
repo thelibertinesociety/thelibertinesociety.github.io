@@ -1,8 +1,8 @@
 ---
-title: The Libertine Society
+title: The Libertine Society    # page title
 layout: default                 # options are `default`, `post`, `opinion`
-permalink: /
-published: true
+permalink: /                    # optional. If commented out, will use the file path as the url.
+published: true                 # Is page visible to people?
 allow_others_to_edit: false     # display the "think you can say it better?" link at the bottom of the file.
 allow_comments: false           # displays the `Disqus` comment thingy.
 ---
@@ -23,7 +23,6 @@ Our community, and this site, are a work in progress. <3
 ... these files aren't uploaded yet ...
 
 * How the writing process works (not written)
-* The Consent Talk (v1 exists)
 * Code of Conduct (v1 exists)
 
 
