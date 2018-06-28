@@ -36,6 +36,8 @@ compress_html:
 collections:
   cupcakes:
     output: true
+  cookies:
+    output: true
 
 sass:
  style: compressed
