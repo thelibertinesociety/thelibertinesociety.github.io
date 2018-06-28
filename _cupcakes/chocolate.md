@@ -1,8 +1,9 @@
 ---
 title: This is the Chocolate Cupcake
-layout: post
+layout: default  # options are `default`, `post`, `opinion`
 permalink: /cupcakes/chocolate/
 published: true
+allow_others_to_edit: true
 ---
 
 {{ collection_title }}
