@@ -33,10 +33,18 @@ compress_html:
   profile: false
   startings: []
 
+
+# `collections` are sort of like little subsections of the site.
+# they can be listed like this...
+#   {% for x in site.cupcakes %}
+#     - <a href="{{x.url | prepend: site.baseurl}}">{{x.title}}</a>
+#   {% endfor %}
 collections:
   cupcakes:
     output: true
   cookies:
+    output: true
+  documents:
     output: true
 
 sass:
