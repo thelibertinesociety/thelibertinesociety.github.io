@@ -3,7 +3,7 @@ title: The Libertine Society    # page title
 layout: default                 # options are `default`, `post`, `opinion`
 permalink: /                    # optional. If commented out, will use the file path as the url.
 published: true                 # Is page visible to people?
-allow_others_to_edit: false     # display the "think you can say it better?" link at the bottom of the file.
+allow_others_to_edit: false     # display the "think you can say it better?" link at the bottom of the page.
 allow_comments: false           # displays the `Disqus` comment thingy.
 ---
 
@@ -16,15 +16,8 @@ Our community, and this site, are a work in progress. <3
 ## Documents
 
 {% for x in site.documents %}
-* <a href="{{x.url | prepend: site.baseurl}}">{{x.title}}</a>
+* [{{x.title}}]({{x.url | prepend: site.baseurl}})
 {% endfor %}
-
-
-... these files aren't uploaded yet ...
-
-* How the writing process works (not written)
-* Code of Conduct (v1 exists)
-
 
 
 ## here are the "blog style" posts
