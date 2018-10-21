@@ -46,6 +46,8 @@ collections:
     output: true
   documents:
     output: true
+  reports:
+    output: true
 
 sass:
  style: compressed
