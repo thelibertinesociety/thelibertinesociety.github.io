@@ -26,6 +26,12 @@ $on-palm:          600px;
 $on-laptop:        1000px;
 
 
+// Image Styles
+.right-image {
+    float: right;
+    width: 50%;
+}
+
 
 // Use media queries like this:
 // @include media-query($on-palm) {
