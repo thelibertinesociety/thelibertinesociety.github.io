@@ -12,6 +12,12 @@ allow_comments: true            # displays the `Disqus` comment thingy.
 
 Hi there! This page has all kinds of useful stuff!
 
+## Contact Form
+
+An online form to submit concerns which will be seen by us, and only us. It will not be for telling the whole story or having the discussion, but to simply initiate the conversation. We will follow-up with you directly, to prevent hearsay and misunderstanding as much possible, as this sort of one-way communication for important, complex subjects can lead to many pitfalls.
+
+You can find this form [here](https://goo.gl/forms/XOx2bfEjAuCUS9Nq1).  
+
 ## Expense Tracking Form
 
 If you have an approved expense that you need to log for reimbursement, you will need to log the expense and upload a receipt. Here's how!
